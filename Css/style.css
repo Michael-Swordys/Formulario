@@ -137,7 +137,7 @@ form select:focus{
 }
 
 form textarea:focus{
-    color: #993399;
+
     outline: none !important;
     border: 1px solid #993399;
     box-shadow: 0 0 10px #719ECE;
