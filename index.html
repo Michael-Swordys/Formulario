@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Formulario</title>
+    <meta charset="utf-8">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+      <form>
+        <fieldset>
+          <legend>Formulario Pessoal</legend>
+          <div><input type= "text"  required placeholder="Digite seu nome "/></div>
+          <div><input type= "text" required placeholder="Digite o seu e-mail"/></div>
+          
+          <div>
+            <select name="Lista">
+              <option disabled selected>Qual Sua Idade</option>
+              <option>Entre 18 a 20 </option>
+              <option>entre 21 a 26 </option>
+              <option>Acima de 26</option>
+            </select>
+          </div>
+
+          <h1 class="titulo-cidade">Qual Sua Cidade</h1> 
+          <div class="classradio">      
+              <div><input type ="radio" required name = cidade value=""><span> Vitoria</span>
+              </div>
+              <div><input type ="radio" name = cidade value=""><span> Vila Velha</span>
+              </div>
+              <div><input type ="radio" name = cidade value=""><span> Serra</span>
+              </div>
+              <div><input type ="radio" name = cidade value=""><span> Cariacica  </span>
+              </div>    
+          </div>
+
+          <h1 class="titulo-gostos">Oque Você Gosta De Comer</h1>
+          <div class="gostos"> 
+            <div><input type ="radio" value=""><span> Frutas</span>
+            </div>
+            <div><input type ="radio"value=""><span> Fast Food</span>
+            </div>
+            <div><input type ="radio" value=""><span> Saladas</span>
+            </div>
+            <div><input type ="radio" value=""><span> Carnes</span>
+            </div>
+          </div>
+          
+          <div>
+            <textarea placeholder="Possui alguma Observação?"></textarea>
+          </div>
+
+          <div>
+            <input type="submit" name ="acao" value="Enviar">
+          </div> 
+          </div>
+          </fieldset>
+      </form>
+</body>
+</html>
