@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+
+form{
+    background-color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 96%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+
+form fieldset{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px 40px;
+    border: 5px solid #993399;
+
+}
+
+form legend{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 17px;
+    color: #993399;
+}
+
+form select{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: calc( 80% + 30px);
+    text-align: left;
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 13px;
+    border: 2px solid #993399;
+}
+
+.titulo-cidade{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 40px; 
+    color: #993399
+}
+.classradio{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin-top: 3px;
+    margin-left: 150px; 
+    color: #993399
+
+}
+
+.titulo-gostos{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 40px; 
+    color: #993399;
+
+}
+
+.gostos{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin-top: 3px;
+    margin-left: 150px; 
+    color: #993399
+
+}
+
+form textarea{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    width: 80%;
+    padding: 10px 13px;
+    color: black;
+    border: 1px solid #993399;
+    resize: none;
+    height: 140px;
+}
+
+form input[type=text]{
+    display: inline-block;
+    margin-top: 30px;
+    width: 80%;
+    padding: 10px 13px;
+    border-color: #993399;
+}
+
+
+form input[type="submit"]{
+    margin-top: 58px;
+    border: 0;
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #8571ce;
+    color: aliceblue;
+    background-color: #993399;
+    margin-left: 70px;
+}
+
+
+
+input[type="radio"]:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background-color: #993399;
+    content: '';
+    display: inline-block;
+}
+
+
+
+form input[type = text]:focus{
+    outline: none !important;
+    border: 1px solid #993399;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+
+
+form select:focus{
+    color: #993399;
+    outline: none !important;
+    border: 1px solid #993399;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+form textarea:focus{
+    color: #993399;
+    outline: none !important;
+    border: 1px solid #993399;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+
