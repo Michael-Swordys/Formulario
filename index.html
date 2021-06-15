@@ -9,50 +9,55 @@
       <form>
         <fieldset>
           <legend>Formulario Pessoal</legend>
-          <div><input type= "text"  required placeholder="Digite seu nome "/></div>
-          <div><input type= "text" required placeholder="Digite o seu e-mail"/></div>
+          <div><input type= "text" name="nome" required placeholder="Digite seu nome "/></div>
+          <div><input type= "text" name="email" required placeholder="Digite o seu e-mail"/></div>
           
           <div>
             <select name="Lista">
               <option disabled selected>Qual Sua Idade</option>
-              <option>Entre 18 a 20 </option>
-              <option>entre 21 a 26 </option>
-              <option>Acima de 26</option>
+              <option value="18 a 20">Entre 18 a 20 </option>
+              <option value="21 a 26">entre 21 a 26 </option>
+              <option value="+26">Acima de 26</option>
             </select>
           </div>
 
           <h1 class="titulo-cidade">Qual Sua Cidade</h1> 
           <div class="classradio">      
-              <div><input type ="radio" required name = cidade value=""><span> Vitoria</span>
+              <div><input type ="radio" required name = cidade value="Vitoria"><span> Vitoria</span>
               </div>
-              <div><input type ="radio" name = cidade value=""><span> Vila Velha</span>
+              <div><input type ="radio" name = cidade value="Vila Velha"><span> Vila Velha</span>
               </div>
-              <div><input type ="radio" name = cidade value=""><span> Serra</span>
+              <div><input type ="radio" name = cidade value="Serra"><span> Serra</span>
               </div>
-              <div><input type ="radio" name = cidade value=""><span> Cariacica  </span>
+              <div><input type ="radio" name = cidade value="Cariacica "><span> Cariacica  </span>
               </div>    
           </div>
 
           <h1 class="titulo-gostos">Oque Você Gosta De Comer</h1>
           <div class="gostos"> 
-            <div><input type ="radio" value=""><span> Frutas</span>
+            <div><input type ="radio"  name= " Frutas[]" value="Frutas"><span> Frutas</span>
             </div>
-            <div><input type ="radio"value=""><span> Fast Food</span>
+            <div><input type ="radio" name=" Fast Food[]" value="Fast Food"><span> Fast Food</span>
             </div>
-            <div><input type ="radio" value=""><span> Saladas</span>
+            <div><input type ="radio" name=" Saladas[]" value="Saladas"><span> Saladas</span>
             </div>
-            <div><input type ="radio" value=""><span> Carnes</span>
+            <div><input type ="radio" name=" Carnes[]" value="Carnes"><span> Carnes</span>
             </div>
           </div>
           
           <div>
-            <textarea placeholder="Possui alguma Observação?"></textarea>
+            <textarea name="Observação" placeholder="Possui alguma Observação?"></textarea>
           </div>
-
+          <div> 
+              <input id="file" type="file" name="file" /> 
+              <p>Para enviar documentos prontos</p>
+              <label for="file">Clique Aqui</label>
+          </div>
           <div>
             <input type="submit" name ="acao" value="Enviar">
           </div> 
           </div>
+          
           </fieldset>
       </form>
 </body>
